@@ -1,7 +1,7 @@
-api_key = "CWQRWMFWTNA2PEOUFCBODIQS3TUHIG"
-domain = "www.gokselgiyim.com"
-file_name = 'MNG Kargo Verileri'
-range_name = 'Sayfa2!A2:Z99999'
+api_key = ""
+domain = ""
+file_name = ''
+range_name = 'Sayfa1!A2:Z99999'
 
 from ticiapi import select_siparis, siparis_data
 from googlesheets import append_to_sheet, update_sheet
